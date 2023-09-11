@@ -3,7 +3,7 @@
 Welcome to my Portfolio! <br />
 This is what it looks like! <br />
 
-![image](https://github.com/suke404/Portfolio/assets/85700523/7610d439-6cb2-4102-bc04-4f22817e30cb)  <br />
+![image](https://github.com/suke404/Portfolio/assets/85700523/b541509d-fdbb-4349-bd12-286062ff79ba) <br />
 
 
 things to add:

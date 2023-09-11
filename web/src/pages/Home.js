@@ -77,7 +77,7 @@ function Home() {
         a question!
       </p>
       <div class="box">
-        I'm looking for 2024 new internships ML/DE positions! shoot me an{" "}
+        I'm looking for 2024 new internships SWE/ML positions! shoot me an{" "}
         <a href="mailto:mc3chan2003@gmail.com" class="clickable">
           email
         </a>{" "}

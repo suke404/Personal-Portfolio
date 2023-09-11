@@ -43,47 +43,7 @@ function AppRoutes() {
   );
 }
 
-function LogRoutes() {
-  return (
-    <div>
-      <div class="flex-container" id="outer" />
-      <div class="flex-container" id="outer">
-        <div class="flex-container" id="inner"></div>
 
-        <div class="flex-container" id="blog">
-          <Routes>
-            
-          </Routes>
-          <Footer />
-        </div>
-
-        <div class="flex-container" id="inner" />
-      </div>
-      <div class="flex-container" id="outer" />
-    </div>
-  );
-}
-
-function BlogRoutes() {
-  return (
-    <div>
-      <div class="flex-container" id="outer" />
-      <div class="flex-container" id="outer">
-        <div class="flex-container" id="inner"></div>
-
-        <div class="flex-container" id="blog">
-          <Routes>
-
-          </Routes>
-          <Footer />
-        </div>
-
-        <div class="flex-container" id="inner" />
-      </div>
-      <div class="flex-container" id="outer" />
-    </div>
-  );
-}
 
 function App() {
   window.dataLayer.push({
@@ -107,8 +67,6 @@ function App() {
       />
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
-        <Route path="/log/*" element={<LogRoutes />} />
-        <Route path="/blogs/*" element={<BlogRoutes />} />
       </Routes>
     </div>
   );

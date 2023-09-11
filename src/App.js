@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import TagManager from "react-gtm-module";
 
 const tagManagerArgs = {
-  gtmId: "G-BR72D9JR60",
+  gtmId: "GTM-000000",
 };
 TagManager.initialize(tagManagerArgs);
 

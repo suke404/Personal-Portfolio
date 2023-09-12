@@ -6,6 +6,7 @@ import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import TagManager from "react-gtm-module";
+import Projects from "./pages/Projects";
 
 const tagManagerArgs = {
   gtmId: "GTM-000000",
@@ -29,7 +30,7 @@ function AppRoutes() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
-
+              <Route path="projects" element={<Projects />} />
             </Routes>
 
             <Footer />

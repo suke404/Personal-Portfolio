@@ -7,7 +7,7 @@ function About() {
 
   return (
     <div>
-      <img src="/images/me.jpg" alt="it's me!" width="200" height="auto" />
+      <img src={require("./images/me.jpg")} alt="it's me!" width="200" height="auto" />
       <p>
         <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>
       </p>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Projects() {
   useEffect(() => {
-    document.title = "Michael's projects ( ´ ▽ ` )b";
+    document.title = "Michael's projects ( ´ ▽ ` )bsss";
   }, []);
 
   return (
